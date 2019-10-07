@@ -27,12 +27,27 @@
     <ClCompile Include="InStack2.c">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="IntQueue.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4-6-1Q.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="4-6Q.c">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="IntStack.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
     <ClInclude Include="IntStack2.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="IntQueue.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
+    <ClInclude Include="4-6.h">
       <Filter>헤더 파일</Filter>
     </ClInclude>
   </ItemGroup>
