@@ -21,5 +21,14 @@
     <ClCompile Include="Q2.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="bubble2.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="selection.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="insertion.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>
