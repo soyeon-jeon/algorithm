@@ -39,7 +39,7 @@ int bm_match(const char txt[], const char pat[])
 		skip[pt] = pat_len;
 	for (pt = 0; pt < pat_len - 1; pt++)
 		skip[pat[pt]] = pat_len - pt - 1;
-	/* pt == pat_len - 1 である */
+	pt == pat_len - 1;
 	while (pt < txt_len) {
 		pp = pat_len - 1;					
 
@@ -59,8 +59,8 @@ int bm_match(const char txt[], const char pat[])
 int main(void)
 {
 	int idx;
-	char s1[256]; /* 텍스트 */
-	char s2[256]; /* 패턴 */
+	char s1[256]; 
+	char s2[256]; 
 
 	puts("Boyer-Moore법");
 
