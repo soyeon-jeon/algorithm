@@ -115,6 +115,13 @@
     </Link>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="ChainHash.cpp" />
+    <ClCompile Include="ChainHashTest.cpp" />
+    <ClCompile Include="Member.h" />
+    <ClCompile Include="Member2.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="ChainHash.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
